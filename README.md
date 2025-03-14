@@ -11,36 +11,3 @@ AWS/GPU (Acceleration)
 Dataset
 The dataset consists of healthy and diseased sugarcane leaf images. It is preprocessed using techniques like resizing, normalization, and augmentation before training the CNN model.
 
-Installation
-Clone the repository:
-bash
-Copy
-Edit
-git clone https://github.com/your-repo/sugarcane-leaf-disease.git
-cd sugarcane-leaf-disease
-Install dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the training script:
-bash
-Copy
-Edit
-python train.py
-Start the web application:
-bash
-Copy
-Edit
-python app.py
-Usage
-Upload an image of a sugarcane leaf.
-The model predicts whether the leaf is healthy or diseased.
-If diseased, it classifies the disease type and suggests possible treatments.
-Future Enhancements
-Improve model accuracy with Transfer Learning.
-Deploy as a mobile app for real-time detection.
-Integrate with an IoT system for automated monitoring.
-Contributors
-Your Name (Project Lead)
-Open to contributions! Feel free to fork and improve.
